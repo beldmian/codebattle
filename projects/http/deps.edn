@@ -1,0 +1,7 @@
+{:deps {poly/user {:local/root "../../components/runner"}
+        poly/http {:local/root "../../bases/http"}
+        org.clojure/clojure {:mvn/version "1.11.1"}}
+
+ :aliases {:test {:extra-paths []
+                  :extra-deps  {}}
+           :uberjar {:main beldmian.codebattle.http.core}}}
